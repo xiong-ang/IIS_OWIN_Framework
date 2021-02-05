@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "ac1e48e9-15a0-4726-8bce-b714717ff261",
+		"name": "ConvertTool",
+		"description": "API Interface of ConvertTool",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TestGetValue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:55555/api/test/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55555",
+					"path": [
+						"api",
+						"test",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestGet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:55555/api/test/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55555",
+					"path": [
+						"api",
+						"test",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
