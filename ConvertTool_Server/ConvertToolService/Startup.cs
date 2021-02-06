@@ -19,6 +19,7 @@ namespace ConvertToolService
             //static file middleware
             app.UseFileServer(new FileServerOptions
             {
+                RequestPath = new PathString("/ui"),
                 EnableDirectoryBrowsing = true,
                 FileSystem = new PhysicalFileSystem(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "UI"))
             });

@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFiles", "{2AC08BF9-7E8B-4D78-8E01-869D9E01B5A3}"
 	ProjectSection(SolutionItems) = preProject
 		ConvertTool.postman_collection.json = ConvertTool.postman_collection.json
+		UI\index.html = UI\index.html
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
